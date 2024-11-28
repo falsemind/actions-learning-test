@@ -18,3 +18,4 @@ xml_tree.SubElement(channnel_element, 'description').text = yaml_data['descripti
 
 output_tree = xml_tree.ElementTree(rss_element)
 output_tree.write('podcast.xml', encoding='UTF-8', xml_declaration=True)
+
